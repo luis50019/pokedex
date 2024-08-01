@@ -1,0 +1,22 @@
+export const colorType = {
+  "normal": "#aaa",
+  "fighting": "#252b47",
+  "flying": "#50bfdb",
+  "poison": "#93e51e",
+  "ground": "#9d6e5e",
+  "rock": "#5A4D41",
+  "bug": "#789860",
+  "ghost": "#C7C9D6",
+  "steel": "#7a7f80",
+  "fire": "#ec6b00",
+  "water": "#0E87CC",
+  "grass": "#348C31",
+  "electric": "#B3CEFF",
+  "psychic": "#625981",
+  "ice": "#BDDEEC",
+  "dragon":"#B72003",
+  "dark":"#221F1F",
+  "fairy":"#f77b94",
+  "stellar":"#46647E",
+  "unknown":"#000"
+}

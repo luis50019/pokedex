@@ -1,0 +1,15 @@
+/*estilos de los card type*/
+.container-types-pokemon{ 
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(70px,1fr));
+}
+.card-type{
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  padding: 0px 8px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}

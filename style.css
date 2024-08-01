@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  font-family: system-ui;
+}
+/*estilos de las imagenes del header*/
+.header-title{
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-title-img-pokemon{
+  width: 70%;
+  height: 100%;
+}
+.header-title-img-pikachu{
+  width: 30%;
+  height: 100%;
+}
+.header-container-types-pokemon {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  display: grid;
+  width: 85%;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 1rem;
+  transition: opacity 1s ease, height 1s ease;
+}
+
+.header-container-types-pokemon.show {
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  transform: translate(0px);
+  transition: opacity 0.5s ease, height 0.5s ease;
+}
+
+/*estilos del header*/
+header{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  gap: .5rem;
+  margin-bottom: 1rem;
+}
+.span-type{
+  width: 85%;
+  text-align: left;
+}
+.header-search{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header-search-input{
+  width: 85%;
+  border-radius: 5px 15px 15px 5px;
+  border: 2px solid #2A5395;
+  height: 28px;
+  padding-left: 5px;
+}
+.header-search-button{
+  height: 28px;
+  width: 15%;
+  border: 2px solid #2A5395;
+  background-color: #FFCB05;
+  color: #fff;
+  position: absolute;
+  right: 26px;
+  border-radius: 5px 15px 15px 5px;
+}
+
+/*estilos de pokemon card*/
+.main{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  transition: 2s;
+}
+.span-tipe-pokemon{
+  display: inline-block;
+  width: 80%;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}

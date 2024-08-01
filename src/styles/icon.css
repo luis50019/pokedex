@@ -1,0 +1,20 @@
+
+.btn-pokemon-fovorite{
+  background-image: url("https://cdn.pixabay.com/photo/2016/07/23/13/21/pokemon-1536855_640.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  border: 2px solid #000;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 50;
+}
+.icon-close-modal{
+  color: #fff;
+  font-size: 25px;
+  position: fixed;
+  top: 10px;
+}
